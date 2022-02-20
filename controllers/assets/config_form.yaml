@@ -1,0 +1,10 @@
+name: Assets
+form: $/butils/assets/models/asset/fields.yaml
+modelClass: Butils\Assets\Models\Asset
+defaultRedirect: butils/assets/assets
+create:
+    redirect: 'butils/assets/assets/update/:id'
+    redirectClose: butils/assets/assets
+update:
+    redirect: butils/assets/assets
+    redirectClose: butils/assets/assets

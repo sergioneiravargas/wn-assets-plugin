@@ -1,0 +1,47 @@
+fields:
+    category:
+        label: Category
+        type: relation
+        nameFrom: name
+    name:
+        label: Name
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        defaultFrom: name
+        preset:
+            field: name
+            type: slug
+        type: text
+    introduction:
+        label: Introduction
+        size: tiny
+        span: full
+        type: textarea
+    details:
+        label: Details
+        size: large
+        span: full
+        type: textarea
+    images:
+        label: Images
+        type: repeater
+        span: auto
+        form:
+            fields:
+                file:
+                    label: 'File'
+                    type: mediafinder
+                    mode: image
+                    imageWidth: '100'
+                    imageHeight: '100'
+                    useCaption: true
+                    thumbOptions:
+                        mode: crop
+                        extension: auto
+                    span: auto
+                description:
+                    label: 'Description'
+                    type: text

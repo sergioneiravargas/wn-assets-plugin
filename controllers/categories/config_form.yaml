@@ -1,0 +1,10 @@
+name: Categories
+form: $/butils/assets/models/category/fields.yaml
+modelClass: Butils\Assets\Models\Category
+defaultRedirect: butils/assets/categories
+create:
+    redirect: 'butils/assets/categories/update/:id'
+    redirectClose: butils/assets/categories
+update:
+    redirect: butils/assets/categories
+    redirectClose: butils/assets/categories

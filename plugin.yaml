@@ -1,0 +1,5 @@
+plugin:
+    name: 'butils.assets::lang.plugin.name'
+    description: 'butils.assets::lang.plugin.description'
+    author: 'Sergio Neira'
+    icon: oc-icon-list

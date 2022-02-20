@@ -1,0 +1,4 @@
+title: Categories
+modelClass: Butils\Assets\Models\Category
+toolbar:
+    buttons: reorder_toolbar

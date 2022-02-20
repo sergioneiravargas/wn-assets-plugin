@@ -1,0 +1,4 @@
+title: Assets
+modelClass: Butils\Assets\Models\Asset
+toolbar:
+    buttons: reorder_toolbar
