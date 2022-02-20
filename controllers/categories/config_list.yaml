@@ -1,5 +1,5 @@
-list: $/butils/assets/models/category/columns.yaml
-modelClass: Butils\Assets\Models\Category
+list: $/sntools/assets/models/category/columns.yaml
+modelClass: Sntools\Assets\Models\Category
 title: Categories
 noRecordsMessage: 'backend::lang.list.no_records'
 showSetup: true
@@ -9,4 +9,4 @@ toolbar:
     buttons: list_toolbar
     search:
         prompt: 'backend::lang.list.search_prompt'
-recordUrl: 'butils/assets/categories/update/:id'
+recordUrl: 'sntools/assets/categories/update/:id'

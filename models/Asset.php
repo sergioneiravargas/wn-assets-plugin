@@ -1,6 +1,6 @@
 <?php
 
-namespace Butils\Assets\Models;
+namespace Sntools\Assets\Models;
 
 use \Winter\Storm\Database\Model;
 use Winter\Storm\Database\Traits\Validation;
@@ -24,7 +24,7 @@ class Asset extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'butils_assets_asset';
+    public $table = 'sntools_assets_asset';
 
     /**
      * @var array Validation rules
@@ -36,7 +36,7 @@ class Asset extends Model
     ];
 
     public $belongsTo = [
-        'category' => ['Butils\Assets\Models\Category'],
+        'category' => ['Sntools\Assets\Models\Category'],
     ];
 
     public function beforeCreate()

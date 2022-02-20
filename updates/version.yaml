@@ -1,7 +1,7 @@
 1.0.1:
     - 'Initialize plugin.'
 1.0.2:
-    - 'Created table butils_assets_category'
-    - builder_table_create_butils_assets_category.php
-    - 'Created table butils_assets_asset'
-    - builder_table_create_butils_assets_asset.php
+    - 'Created table sntools_assets_category'
+    - builder_table_create_sntools_assets_category.php
+    - 'Created table sntools_assets_asset'
+    - builder_table_create_sntools_assets_asset.php

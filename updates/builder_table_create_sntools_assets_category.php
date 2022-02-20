@@ -1,15 +1,15 @@
 <?php
 
-namespace Butils\Assets\Updates;
+namespace Sntools\Assets\Updates;
 
 use Winter\Storm\Database\Updates\Migration;
 use Winter\Storm\Support\Facades\Schema;
 
-class BuilderTableCreateButilsAssetsCategory extends Migration
+class BuilderTableCreateSntoolsAssetsCategory extends Migration
 {
     public function up()
     {
-        Schema::create('butils_assets_category', function ($table) {
+        Schema::create('sntools_assets_category', function ($table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
             $table->string('name')->unique();
@@ -21,6 +21,6 @@ class BuilderTableCreateButilsAssetsCategory extends Migration
 
     public function down()
     {
-        Schema::dropIfExists('butils_assets_category');
+        Schema::dropIfExists('sntools_assets_category');
     }
 }

@@ -1,6 +1,6 @@
 <?php return [
     'plugin' => [
-        'name' => 'Butils Assets',
+        'name' => 'Sntools Assets',
         'description' => ''
     ]
 ];

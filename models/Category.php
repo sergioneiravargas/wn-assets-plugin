@@ -1,6 +1,6 @@
 <?php
 
-namespace Butils\Assets\Models;
+namespace Sntools\Assets\Models;
 
 use Winter\Storm\Database\Model;
 use Winter\Storm\Database\Traits\Validation;
@@ -22,7 +22,7 @@ class Category extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'butils_assets_category';
+    public $table = 'sntools_assets_category';
 
     /**
      * @var array Validation rules
@@ -37,6 +37,6 @@ class Category extends Model
     ];
 
     public $hasMany = [
-        'assets' => ['Butils\Assets\Models\Asset', 'delete' => true],
+        'assets' => ['Sntools\Assets\Models\Asset', 'delete' => true],
     ];
 }

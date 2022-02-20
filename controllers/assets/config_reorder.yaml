@@ -1,4 +1,4 @@
 title: Assets
-modelClass: Butils\Assets\Models\Asset
+modelClass: Sntools\Assets\Models\Asset
 toolbar:
     buttons: reorder_toolbar

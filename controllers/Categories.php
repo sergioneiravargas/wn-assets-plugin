@@ -1,6 +1,6 @@
 <?php
 
-namespace Butils\Assets\Controllers;
+namespace Sntools\Assets\Controllers;
 
 use Backend\Classes\Controller;
 use Backend\Facades\BackendMenu;
@@ -20,6 +20,6 @@ class Categories extends Controller
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('Butils.Assets', 'assets', 'categories');
+        BackendMenu::setContext('Sntools.Assets', 'assets', 'categories');
     }
 }

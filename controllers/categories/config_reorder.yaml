@@ -1,4 +1,4 @@
 title: Categories
-modelClass: Butils\Assets\Models\Category
+modelClass: Sntools\Assets\Models\Category
 toolbar:
     buttons: reorder_toolbar

@@ -1,10 +1,10 @@
 name: Categories
-form: $/butils/assets/models/category/fields.yaml
-modelClass: Butils\Assets\Models\Category
-defaultRedirect: butils/assets/categories
+form: $/sntools/assets/models/category/fields.yaml
+modelClass: Sntools\Assets\Models\Category
+defaultRedirect: sntools/assets/categories
 create:
-    redirect: 'butils/assets/categories/update/:id'
-    redirectClose: butils/assets/categories
+    redirect: 'sntools/assets/categories/update/:id'
+    redirectClose: sntools/assets/categories
 update:
-    redirect: butils/assets/categories
-    redirectClose: butils/assets/categories
+    redirect: sntools/assets/categories
+    redirectClose: sntools/assets/categories

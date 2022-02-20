@@ -1,8 +1,10 @@
 <?php Block::put('breadcrumb') ?>
-    <ul>
-        <li><a href="<?= Backend::url('butils/assets/categories') ?>">Categories</a></li>
-        <li><?= e($this->pageTitle) ?></li>
-    </ul>
+<ul>
+    <li><a href="<?= Backend::url('sntools/assets/categories') ?>">Categories</a></li>
+    <li>
+        <?= e($this->pageTitle) ?>
+    </li>
+</ul>
 <?php Block::endPut() ?>
 
 <?= $this->reorderRender() ?>

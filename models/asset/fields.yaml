@@ -42,6 +42,6 @@ fields:
                         mode: crop
                         extension: auto
                     span: auto
-                description:
-                    label: 'Description'
+                title:
+                    label: 'Title'
                     type: text

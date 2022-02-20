@@ -1,6 +1,6 @@
 <?php
 
-namespace Butils\Assets\Controllers;
+namespace Sntools\Assets\Controllers;
 
 use Backend\Classes\Controller;
 use Backend\Facades\BackendMenu;
@@ -17,11 +17,11 @@ class Assets extends Controller
     public $formConfig = 'config_form.yaml';
     public $reorderConfig = 'config_reorder.yaml';
 
-    public $requiredPermissions = ['butils.assets.*'];
+    public $requiredPermissions = ['sntools.assets.*'];
 
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('Butils.Assets', 'assets', 'assets');
+        BackendMenu::setContext('Sntools.Assets', 'assets', 'assets');
     }
 }
