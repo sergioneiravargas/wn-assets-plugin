@@ -15,7 +15,7 @@ class BuilderTableCreateSntoolsAssetsCategory extends Migration
             $table->string('name')->unique();
             $table->text('introduction');
             $table->text('details');
-            $table->string('slug');
+            $table->string('slug')->unique();
         });
     }
 
